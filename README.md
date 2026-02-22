@@ -94,10 +94,20 @@ src/main/resources/application.properties
 Debe contener algo como:
 
 ```properties
+spring.application.name=app
+
+# Puerto del servidor
+server.port=8080
+
+# Configuracion de MySQL
 spring.datasource.url=jdbc:mysql://localhost:3306/clase
 spring.datasource.username=root
 spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA / Hibernate
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 ```
 
 ---
