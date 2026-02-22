@@ -146,9 +146,9 @@ java -jar target/app-0.0.1-SNAPSHOT.jar
 
 ## Opciones seleccionadas en el Spring Initializr
 
-- Project: Maven
-- Languaje: Java
-- Spring Boot: 4.0.3
-- Packaging: Jar
-- Configuration: Properties
-- Java: 17
+- **Project:** 🟢 Maven
+- **Language:** 🟢 Java
+- **Spring Boot:** 🟢 4.0.3
+- **Packaging:** 🟢 Jar
+- **Configuration:** 🟢 Properties
+- **Java:** 🟢 17
